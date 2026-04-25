@@ -179,20 +179,17 @@ export const workExperience = [
 export const socialMedia = [
   {
     id: 1,
-    img: "/git.svg",
-    link: "https://scholar.google.com/citations?user=example",
-    name: "scholar",
+    name: "LinkedIn",
+    link: "https://www.linkedin.com/in/dralexandrachen",
   },
   {
     id: 2,
-    img: "/insta.svg",
-    link: "https://www.linkedin.com/in/designthinkingprofessor/",
-    name: "linkedin",
+    name: "Gmail",
+    link: "mailto:alexandra.chen@stanford.edu",
   },
   {
     id: 3,
-    img: "/link.svg",
-    link: "https://www.researchgate.net/profile/Design_Thinking_Professor",
-    name: "researchgate",
+    name: "Medium",
+    link: "https://medium.com/@dralexandrachen",
   },
 ];

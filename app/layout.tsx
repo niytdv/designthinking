@@ -7,9 +7,9 @@ import { ThemeProvider } from "./provider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Onkar's Portfolio",
+  title: "DT Portfolio",
   description:
-    "Full Stack Developer & Robotics Club President, Computer Science enthusiast at Symbiosis Institute of Technology.",
+    "Dr. Alexandra Chen — Director of the Design Thinking Lab at Stanford GSB. Transforming how organizations innovate through human-centered design.",
 };
 
 export default function RootLayout({
