@@ -30,7 +30,7 @@ This portfolio presents Dr. Alexandra Chen, Director of the Design Thinking Lab 
 - Smooth animations and transitions
 - Interactive research showcase
 - Professional credibility-focused messaging
-- Modern, clean aesthetic with gradient accents
+- Modern, clean aesthetic with gradient accents and clean UI
 
 ## Getting Started
 
