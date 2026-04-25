@@ -1,7 +1,5 @@
 "use client";
-
 import { navItems } from "@/data";
-
 import Hero from "@/components/Hero";
 import Grid from "@/components/Grid";
 import Footer from "@/components/Footer";
@@ -11,7 +9,9 @@ import RecentProjects from "@/components/RecentProjects";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
 import Resume from "@/components/Resume";
 import Education from "@/components/Clients";
-import TechStack from "@/components/TechStack";
+import dynamic from "next/dynamic";
+
+const TechStack = dynamic(() => import("@/components/TechStack"), { ssr: false });
 
 const Home = () => {
   return (
@@ -31,5 +31,4 @@ const Home = () => {
     </main>
   );
 };
-
 export default Home;
